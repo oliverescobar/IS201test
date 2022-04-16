@@ -1,0 +1,148 @@
+/* Oliver Escobar, Friday April 15th, 2022 */
+h1 {
+    text-align: justify;
+    text-align: center;
+    color: #e6a756;
+    font-family: "Raleway", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    margin-top: 75px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-family: "Raleway", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 5rem;
+    font-weight: 100;
+    line-height: 4rem;
+    color: #f6e1c5;
+    text-align: center !important;
+    margin-top: 10px;
+    margin-bottom: 100px;
+}
+
+.navigation {
+    text-align: justify;
+}
+
+.tableau {
+    text-align: justify;
+}
+
+.footer {
+    text-align: justify;
+    text-align: center;
+    color: aliceblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: gray;
+    margin-bottom: -16px;
+    margin-top: 16px;
+    margin-left: -8px;
+    margin-right: -16px;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: aqua;
+}
+
+.footer a:hover {
+    font-size: 15px;
+    text-decoration: none;
+}
+
+body a:hover {
+    font-size: 15px;
+    text-decoration: none;
+}
+
+ul {
+    position: relative;
+    left: -8px;
+    top: 0;
+    overflow: hidden;
+    text-align: center;
+    margin-left: 0;
+    margin-right: -16px;
+    padding: 0px;
+    background-color: rgba(52, 29, 33, 1);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+li {
+    font-weight: bold;
+    display: inline-block;
+}
+
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 35px 16px;
+}
+
+li:active {
+    color: green;
+}
+
+li a:hover {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 16px;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+.custombg {
+    background-image: url('../images/sunset-bg.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    image-rendering: crisp-edges;
+}
+
+.caption {
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: dotted;
+    color: aliceblue;
+    padding: 14px 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.caption a {
+    color: aqua;
+    text-decoration: underline;
+}
+
+.caption a:hover {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: aqua;
+    font-size: 18px;
+}
+
+.highlight {
+    background-color: rgba(128, 128, 128, 0.45);
+}
+
+.nav {
+    color: aliceblue;
+    background-color: rgba(128, 128, 128, 0.45);
+    font-size: 18px;
+}
+
+.nav a {
+    color: aqua;
+    text-decoration: underline;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav a:hover {
+    font-size: 18px;
+    text-decoration: none;
+    color: aqua;
+}
